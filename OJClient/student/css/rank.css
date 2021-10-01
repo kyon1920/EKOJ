@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.back {
+	display: flex;
+	text-align:center;
+	width: calc(100%-40px);
+	margin: 20px 20px 10px 20px;
+}
+
+/* 左右两侧宽度 */
+.side.left {
+	width: 30%;
+	height: 240px;
+	border-radius:5px;
+	margin-top: 55px;
+	background-color: skyblue;
+}
+.side.right {
+	width: 30%;
+	height: 240px;
+	border-radius:5px;
+	margin-top: 65px;
+	background-color: skyblue;
+}
+
+/* 中间区域宽度 */
+.middle {
+	width: 40%;
+	height: 300px;
+	border-radius:5px;
+	margin-top: 20px;
+	background-color: skyblue;
+}
+
+.ranks {
+	color:#000000;
+	font-size:13;
+	width:calc(100% - 40px);
+	border-collapse:collapse;
+	text-align: left;
+	margin: 0px 20px 20px 20px;
+}
+.ranks td, .ranks th {
+	border:0px solid #808080;
+	padding:10px 1px 10px 10px;
+}
+
+.ranks th {
+	text-align:left;
+	background-color:#D5D5D5;
+}
+
+.alt td {
+	text-align:left;
+	background-color:#EFEFEF;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="../index.js"></script>
+		<script type="text/javascript"> window.onload = function(){ load4achievement(); }</script>
+	</head>
+	<body>
+        <div style="text-align: center;">
+            <br>
+			<h2 id="actitle"></h2>
+			<br><br>
+			<select id="select4classidac">
+			</select>&nbsp;班&nbsp;
+			<button type="button" onclick="checkthescore()" class="submitbutton" style="width: 100px; height: 25px; line-height: 22px;">查 询</button>
+		</div>
+        <br>
+        <hr>
+		<div>
+			<table class="examlist" id="achievementtable">
+			</table>
+			<br>
+		</div>
+		<div class="examright">
+			<iframe frameborder="0" height="100%" width="100%"  class="iframeContent" name="details"></iframe>
+		</div>
+	</body>
+</html>

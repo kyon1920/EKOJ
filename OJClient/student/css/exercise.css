@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 中间区域宽度 */
+.column.middle {
+  width: calc(100% - 200);
+  margin: 20px 100px 100px 100px;
+  padding: 20px 20px 20px 20px;
+  border-radius:10px;
+  background-color: white;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 宽度小于600px时设置上下布局 */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+a {
+	text-decoration:none;
+	color: #3F81B0;
+}
+
+#exercisecustomers {
+	width:calc(100% - 40px);
+	border-collapse:collapse;
+	text-align: left;
+	margin: 20px 20px 20px 20px;
+}
+#exercisecustomers td, #customers th {
+	font-size:14;
+	border:0px solid #808080;
+	padding:10px 1px 10px 10px;
+}
+#exercisecustomers th {
+	font-size:14;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#D5D5D5;
+	color:#3F81B0;
+}
+
+#exercisecustomers tr.alt td {
+	color:#000000;
+	background-color:#EFEFEF;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="../index.js"></script>
+	</head>
+	<body>
+		<br>
+		<span>试卷名称：</span><input id="name4exam" class="examinput" style="width: 500px;">
+		<br><br>
+		<span>题型及数量：</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;选择题/分值：<input id="selectpro" type="number" class="examinput" style="width: 60px;">/<input id="score4selectpro" type="number" class="examinput" style="width: 60px;">
+		&nbsp;&nbsp;&nbsp;&nbsp;判断题/分值：<input id="judgepro" type="number" class="examinput" style="width: 60px;">/<input id="score4judgepro" type="number" class="examinput" style="width: 60px;">
+		&nbsp;&nbsp;&nbsp;&nbsp;编程题：<input id="codepro" type="number" class="examinput" style="width: 100px;">
+		&nbsp;&nbsp;<button class="submitbutton" style="height: 28px; width: 40px; line-height: 25px;" onclick="createxam()">确 认</button>
+		<br><br><hr style="background-color: #000000;"/><br>
+		<div id="selectproblem">
+			<h3>选择题</h3>
+		</div>
+		<div id="judegproblem">
+			<br><br><h3>判断题</h3>
+		</div>
+		<div id="codeproblem">
+			<br><br><h3>编程题</h3>
+		</div>
+		<br><br>
+		<div style="text-align: center;">
+			<button class="submitbutton" onclick="submitexam()" style="width: 250px; height: 40px; font-size: 18px;">提 交 试 卷</button>
+		</div>
+		<br>
+	</body>
+</html>

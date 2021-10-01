@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript"> window.onload = function(){ loadTestPaperPro(); }</script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="../index.js"></script>
+	</head>
+	<body>
+		<div style="text-align: center;">
+			<h2 id="teachertestpapername"></h2>
+			<br>教师：<span id="teacherusername"></span>
+			<br><br>
+			限时（分钟）：<input id="testpapertimelimit" type="number" class="examinput" style="width: 100px;" placeholder=""/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select id="select4classid">
+			</select>&nbsp;班&nbsp;
+			<button type="button" onclick="submittestpaper()" class="submitbutton" style="width: 100px; height: 25px; line-height: 22px;">发 布</button>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="button" onclick="deletepaper()" class="submitbutton" style="width: 100px; height: 25px; line-height: 22px;">删 除</button>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="achievement.html" onclick="stuachievement()" style="width: 100px; height: 25px; line-height: 22px;" target="details">学生成绩</a>
+		</div>
+		<br>
+		<hr />
+		<br>
+		<div class="paperselectpro" id="paperselectpros" style="line-height: 35px;">
+		</div>
+		<br>
+		<div class="paperjudgepro" id="paperjudgepros" style="line-height: 35px;">
+		</div>
+		<br>
+		<div class="papercodepro" id="papercodepros" style="line-height: 35px;">
+		</div>
+		<br><br>
+		<hr />
+		<h3>完！</h3>
+		<br>
+	</body>
+</html>

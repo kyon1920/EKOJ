@@ -1,0 +1,260 @@
+*{ margin: 0; padding: 0; }
+
+.div1 {
+	background-color: black;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+	
+}
+.div2 {
+	background-color: whitesmoke;
+	padding-top: 50px;
+	height: calc(100% - 50px);
+	width: 100%;
+}
+
+.div2left {
+	background-color: #FFEFFF;
+	float: left;
+	width: 245px;
+	height: calc(100% - 50px);
+	border-radius: 5px;
+	margin: 20px 5px 20px 10px;
+}
+
+.div2right {
+	background-color: #EFFFFF;
+	float: right;
+	width: calc(100% - 275px);
+	height: calc(100% - 50px);
+	border-radius: 5px;
+	margin: 20px 10px 20px 5px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+.left { float: left; }
+.left a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+.left a:hover { color: red; }
+
+.leftbutton {
+	background-color: white;
+	height: 40px;
+	width: 245px;
+	border: none;
+}
+
+.leftbutton a {
+	font-size: 16;
+	display: block;
+	color: black;
+	height: 40px;
+	width: 245px;
+	text-align: center;
+	line-height:40px;
+	text-decoration: none;
+}
+
+.leftbutton a:hover { background-color: gray; color: cornsilk; }
+
+.rightbutton a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+}
+
+hr {
+	background-color: #000000;
+}
+
+.right { float: right; }
+.right a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+.right a:hover { background-color: gray; color: cornsilk; }
+
+.rightbutton a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+}
+
+#logo { padding: 0px 0px; }
+
+.changepage {
+	text-align: center;
+	font-size: 15px;
+}
+
+.changepage button {
+	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+.changepage input {
+	width: 60px;
+	height: 20px;
+}
+
+.changepage button:hover { background-color:#EFEFEF; color:#000000; }
+.changepage button:active{ background-color:#3B7AE3; color:white; }
+
+
+
+.footer {
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}
+
+.footer a {
+	text-decoration:none;
+	color: #666666;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #FFFFFF;
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 0px;
+	background-color: #FFFFFF;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #D5D5D5;
+}
+
+.examleft {
+	float: left;
+	width: 350px;
+	height: 650px;
+	overflow :auto;
+	background-color: white;
+}
+
+.examright {
+	float: right;
+	width: calc(100% - 356px);
+	height: 650px;
+	background-color: white;
+}
+
+.newexam {
+	color: black;
+	font-size: 16px;
+    width: 344px;
+    height: 30px;
+	text-align: center;
+    background-color: #D5D5D5;
+}
+
+.newexam:hover {
+	color: #FFFFFF;
+	background-color: #00897B;
+}
+
+.newexam:active {
+	color: #FFF8DC;
+    background-color: darkblue;
+	border: none;
+}
+
+.examlist {
+	font-size: 14px;
+	width:344px;
+	border-collapse:collapse;
+	text-align: left;
+	line-height:40px;
+	table-layout: fixed;
+}
+.examlist td {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.examlist td:hover {
+	overflow: visible;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.alt {
+	color:#000000;
+	background-color:#FFFFFF;
+}
+
+.examinput {
+	height: 20px;
+	font-size: 17px;
+	border:none;
+	border-bottom:1px solid;
+	outline: none;
+}
+
+.problemdescribe {
+	height: 100px;
+	width: 80%;
+	margin: 5px 0 5px 0;
+	font: "微软雅黑";
+	font-size: 17px;
+	resize:none;
+	background-color: #FEFEFE;
+	color: black;
+}
+
+.selectdescribe {
+	height: 20px;
+	width: 120px;
+	font-size: 16px;
+	border:none;
+	border-bottom:1px solid;
+	outline: none;
+}
+
+.submitbutton {
+	background-color: #0000FF;
+	color: white;
+	line-height: 38px;
+}
+.submitbutton:hover {
+	background-color: #00897B;
+	color: yellow;
+}
+.submitbutton:active {
+	background-color: #3B7AE3;
+	color: whitesmoke;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="../index.js"></script>
+		<script type="text/javascript"> window.onload = function(){ load4TestPaper(); }</script>
+	</head>
+	<body>
+		<div class="examleft">
+			<br>
+			<h4>&nbsp;&nbsp;试卷列表</h4>
+			<br>
+			<hr />
+			<br>
+			<button class="newexam"><a href="newexam.html" target="details" style="text-decoration: none;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			➕&nbsp;&nbsp;&nbsp;&nbsp;新&nbsp;试&nbsp;卷&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></button>
+			<br>
+			<br>
+			<hr />
+			<br>
+			<table class="examlist" id="testpaper4list">
+				<tr>
+					<th width="85%">试卷名称</th>
+					<th>操作</th>
+				</tr>
+			</table>
+			<br>
+		</div>
+		<div class="examright">
+			<iframe frameborder="0" height="100%" width="100%"  class="iframeContent" name="details"></iframe>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="../index.js"></script>
+		<script type="text/javascript"> window.onload = function(){ tload4Classes(); }</script>
+	</head>
+	<body>
+		<div class="examleft">
+			<br>
+			<h4>&nbsp;&nbsp;班级列表</h4>
+			<br>
+			<hr />
+			<br>
+			班级号：<input id="newclassid" class="examinput" style="width: 150px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<button class="submitbutton" onclick="teachernewclass()" style="width: 100px; height: 35px; line-height: 32px;">新建班级</button>
+			<br><br>
+			<hr />
+			<table class="examlist" id="teacherclasses">
+				<tr>
+					<th width="70%"></th>
+					<th></th>
+					<th></th>
+				</tr>
+			</table>
+			<br>
+		</div>
+		<div class="examright">
+			<iframe frameborder="0" height="100%" width="100%"  class="iframeContent" name="details"></iframe>
+		</div>
+	</body>
+</html>

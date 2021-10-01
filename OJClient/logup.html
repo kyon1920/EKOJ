@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<meta name="author" content="Saint-EK">
+		<meta name="keywords" content="OJ,EKOJ,C/C++"/>
+		<meta name="description" content="C/C++程序设计类课程教学辅助系统">
+		
+		<title>Welcome to EKOJ</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	
+	<body>
+		<div class="headline">
+			<span>C/C++程序设计类课程教学辅助系统</span>
+		</div>
+		<div class="xxx" style="height: 520px; margin: 20px auto;">
+			<div class="signin">
+				<div class="username">
+					<span>用户名:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<input type="text" id="logupusername" placeholder="请输入用户名">
+				</div>
+				<div class="passwd">
+					<span>密 &nbsp;&nbsp;码:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<input type="password" id="loguppassword" placeholder="请输入密码">
+				</div>
+				<div class="passwd">
+					<span>确认密码:</span>
+					<input type="password" id="logupsure" placeholder="请再次输入密码">
+				</div>
+				<div class="remember">
+					<div class="remember_left">
+						<select id="logupusertype">
+							<option>学生</option>
+							<option>老师</option>
+							<option>管理员</option>
+						</select>
+					</div>
+					<div class="remember_right">
+						<a href="index.html">返回登陆</a>&nbsp;&nbsp;
+					</div>
+				</div>
+				<div class="username">
+					<span>姓 &nbsp;&nbsp;名:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<input type="text" id="logupname" placeholder="请输入您的姓名">
+				</div>
+				<div class="passwd">
+					<span>其它信息:</span>
+					<input type="text" id="logupmaterial" placeholder="学号/教师编号/管理员编号">
+				</div>
+				<div class="loginbutton">
+					<button onclick="logup()">注&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
